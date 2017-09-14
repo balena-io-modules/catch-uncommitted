@@ -34,5 +34,5 @@ npm run ci
 
 [... your build here ...]
 
-No unexpected changes after build, all good.
+No unexpected changes, all good.
 ```
