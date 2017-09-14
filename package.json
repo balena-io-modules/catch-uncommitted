@@ -6,7 +6,7 @@
     "catch-uncommitted": "catch-uncommitted.sh"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./catch-uncommitted.sh"
   },
   "repository": {
     "type": "git",
