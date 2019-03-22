@@ -36,3 +36,12 @@ npm run ci
 
 No unexpected changes, all good.
 ```
+
+## Extra options
+
+### --catch-no-git
+
+When running `catch-uncommitted --catch-no-git`, the script will exit without an
+error when git isn't available. This can be useful when you need to run the same
+tests in different environments, where some of them do not have git available.
+
