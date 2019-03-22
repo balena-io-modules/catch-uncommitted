@@ -45,3 +45,8 @@ When running `catch-uncommitted --catch-no-git`, the script will exit without an
 error when git isn't available. This can be useful when you need to run the same
 tests in different environments, where some of them do not have git available.
 
+### --skip-node-versionbot-changes
+
+When running `catch-uncommitted --skip-node-versionbot-changes`, the script will
+skip checking the `package.json` & the `CHANGELOG.md` for changes, so that it
+can work as part of the balenaCI pipeline.
