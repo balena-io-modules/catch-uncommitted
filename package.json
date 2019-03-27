@@ -6,7 +6,7 @@
     "catch-uncommitted": "catch-uncommitted.sh"
   },
   "scripts": {
-    "test": "./catch-uncommitted.sh"
+    "test": "./catch-uncommitted.sh --skip-node-versionbot-changes"
   },
   "repository": {
     "type": "git",
