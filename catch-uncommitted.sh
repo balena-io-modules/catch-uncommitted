@@ -12,7 +12,7 @@ while [ $# -gt 0 ]; do
 			catch_no_git=1
 		;;
 		--skip-node-versionbot-changes)
-			extra_args="${extra_args} "":(exclude)package.json"" "":(exclude)package-lock.json"" "":(exclude)npm-shrinkwrap.json"" "":(exclude)CHANGELOG.md"""
+			extra_args="${extra_args} "":(exclude)package.json"" "":(exclude)package-lock.json"" "":(exclude)npm-shrinkwrap.json"" "":(exclude)CHANGELOG.md"" "":(exclude).versionbot/CHANGELOG.yml"""
 		;;
 	esac
 done
