@@ -50,3 +50,10 @@ tests in different environments, where some of them do not have git available.
 When running `catch-uncommitted --skip-node-versionbot-changes`, the script will
 skip checking the `package.json` & the `CHANGELOG.md` for changes, so that it
 can work as part of the balenaCI pipeline.
+
+### --exclude
+
+Custom file exclusions may be set with `catch-uncommitted --exclude`. This flag
+can be used in conjunction with other flags. For example, to skip checking a file
+located at `my/file`, use `catch-uncommitted --exclude=my/file`. Multiple files
+may be set by separating paths with a comma: `--exclude=my/file,VERSION`.
