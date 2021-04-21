@@ -3,10 +3,13 @@
   "version": "1.6.2",
   "description": "Script to catch uncommitted/unversioned files, for CI",
   "bin": {
-    "catch-uncommitted": "catch-uncommitted.sh"
+    "catch-uncommitted": "catch-uncommitted.js"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   },
   "scripts": {
-    "test": "./catch-uncommitted.sh --skip-node-versionbot-changes"
+    "test": "./catch-uncommitted.js --skip-node-versionbot-changes"
   },
   "repository": {
     "type": "git",
