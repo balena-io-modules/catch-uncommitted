@@ -1,6 +1,6 @@
 {
   "name": "catch-uncommitted",
-  "version": "1.6.2",
+  "version": "2.0.0",
   "description": "Script to catch uncommitted/unversioned files, for CI",
   "bin": {
     "catch-uncommitted": "catch-uncommitted.js"
